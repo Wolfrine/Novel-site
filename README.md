@@ -25,6 +25,23 @@ This will serve the site locally so you can preview changes.
 
 Contributions are welcome! Feel free to submit issues or pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-## Docusaurus Integration
+## Docusaurus Documentation Site
 
-We plan to integrate [Docusaurus](https://docusaurus.io/) to manage documentation and allow a better reading experience. You can track progress in [NovaSaga](https://github.com/Wolfrine/NovaSaga).
+The `docs-site` directory contains the [Docusaurus](https://docusaurus.io/) site.
+
+### Install dependencies
+
+```bash
+cd docs-site
+npm install
+```
+
+### Start the site
+
+```bash
+npm run start
+```
+
+This will launch a local development server so you can browse the documentation.
+
+The site navigation includes a link to the [NovaSaga repository](https://github.com/Wolfrine/NovaSaga).
